@@ -1,3 +1,26 @@
+/*Kop lettertype bron -> https://www.fontspace.com/mikea-font-f105560*/
+@font-face {
+    font-family: mikea;
+    src: url(../fonts/Mikea.otf);
+}
+
+/*Paragraaf lettertype bron -> https://www.dafont.com/caviar-dreams.font*/
+@font-face {
+    font-family: caviarDreams;
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
 body{
-    background-color: red;
+    background-color: beige;
+}
+
+h1, h2{
+    font-family: mikea;
+    color: rgb(128, 61, 61);
+    font-size: 2em;
+}
+
+p{
+    font-family: caviarDreams;
+    font-size: 1.3em;
 }

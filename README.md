@@ -66,3 +66,19 @@ TBA
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+
+---
+
+## Maandag 5 februari
+Vandaag ben ik samen met mijn team aan de slag gegaan met de eerste opzet van de team web app. Hiervoor hadden we eerst een paar ideeën op een rijtje gezet. Vervolgens hadden we een paar dingen omcirkeld en een beetje uitgeschetst. Wij hebben ervoor gekozen om koken als thema te nemen. Elk teamlid is een chef die wat over zichzelf vertelt en over zijn kook skills. 
+
+<!-- Foto van schetsen toevoegen 📸 -->
+
+Nu we eindelijk een helder beeld hebben, kan ik aan de slag gaan met de individuele opdracht. Voor deze individuele opdracht ben ik gelijk begonnen met het schetsen van een opzet. In mijn website app wil ik kort wat over mezelf vertellen, mijn favoriete gerechten en mijn inspiratie. Het lijkt mij erg leuk om voor de favoriete gerechten een slideshow te maken voor de mobiele versie, zodat de gebruiker horizontaal kan scrollen om alle gerechten te zien. Ook wil ik een galerij met allerlei foto's maken van mijn gemaakte gerechten. (ik hou zelf ook erg van koken/bakken). Aangezien we weinig tijd hebben voor deze opdracht en ik zelf ook weinig skills heb op het gebied van coderen, hoop ik toch om een mooie website te bouwen. 
+
+<!-- Foto van schetsen toevoegen 📸 -->
+
+Ik ben ook al begonnen met een kleine opzet van de webapp in Visual Studio Code. Ik had alleen een font geïmporteerd en al een h1,h2 en een p erin verwerkt.
+
+## Dinsdag 6 februari
+A
