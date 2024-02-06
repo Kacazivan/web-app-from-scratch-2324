@@ -1,7 +1,7 @@
 // json
 const personalWebsite = {
     "name" : "Katarina",
-    "lastName" : "Živanović",
+    "lastName" : "Zivanovic",
     "dateOfBirth" : {
         "year" : 2004,
         "month" : 12,
