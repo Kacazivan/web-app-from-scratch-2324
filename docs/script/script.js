@@ -14,7 +14,7 @@ const personalWebsite = {
     "openForJobProposals" : false,
     "favorieteKeuken" : "Servische & Bosnische keuken",
     "favorieteGerechten" : [
-        "gulaš", "ćevape", "pastrmka", "Servisch ontbijt"
+        "gulas", "cevape", "pastrmka", "Servisch ontbijt"
     ],
     "kookSkills" : 7
 };
