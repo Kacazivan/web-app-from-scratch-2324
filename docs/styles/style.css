@@ -1,3 +1,7 @@
+/*********/
+/* FONTS */
+/*********/
+
 /*Kop lettertype bron -> https://www.fontspace.com/mikea-font-f105560*/
 @font-face {
     font-family: mikea;
@@ -10,17 +14,46 @@
     src: url(../fonts/Montserrat-ExtraLight.ttf);
 }
 
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+:root{
+    /*Basis kleurenpalet*/
+    --achtergrond: #FFFAF2;
+    --kop-kleur: black;
+}
+
+
+/***********/
+/* STYLING */
+/***********/
+
 body{
-    background-color: #FFFAF2;
+    background-color:var(--achtergrond);
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 h1, h2{
     font-family: mikea;
-    color: black;
-    font-size: 2em;
+    color:var(--kop-kleur);
+    font-size: 1.8em;
 }
+
 
 p{
     font-family: montserrat;
     font-size: 1em;
+}
+
+.wieBenIk{
+    position: relative;
+    width: 8em;
+    border-radius: 50%;
+}
+
+
+section img{
+    width: 9em;
 }

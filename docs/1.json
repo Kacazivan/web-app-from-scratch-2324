@@ -1,0 +1,15 @@
+{
+    "name" : "Katarina",
+    "lastName" : "Živanović",
+    "dateOfBirth" : {
+        "year" : 2004,
+        "month" : 12,
+        "day" : 29
+    },
+    "avatar" : "https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp",
+    "city" : "Amsterdam",
+    "favoritePets" : [
+        "bear", "dog"
+    ],
+    "openForJobProposals" : false
+}
