@@ -1,4 +1,5 @@
-{
+// json
+const personalWebsite = {
     "name" : "Katarina",
     "lastName" : "Živanović",
     "dateOfBirth" : {
@@ -6,7 +7,6 @@
         "month" : 12,
         "day" : 29
     },
-    
     "city" : "Amsterdam",
     "favoriteAnimals" : [
         "bear", "dog"
@@ -17,4 +17,6 @@
         "gulaš", "ćevape", "pastrmka", "Servisch ontbijt"
     ],
     "kookSkills" : 7
-}
+};
+
+console.log(personalWebsite);
