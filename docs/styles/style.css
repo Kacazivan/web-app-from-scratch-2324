@@ -4,22 +4,23 @@
     src: url(../fonts/Mikea.otf);
 }
 
-/*Paragraaf lettertype bron -> https://www.dafont.com/caviar-dreams.font*/
+/*Paragraaf lettertype bron -> https://befonts.com/montserrat-font-family.html*/
 @font-face {
-    font-family: caviarDreams;
-    src: url(../fonts/CaviarDreams.ttf);
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
 }
+
 body{
-    background-color: beige;
+    background-color: #FFFAF2;
 }
 
 h1, h2{
     font-family: mikea;
-    color: rgb(128, 61, 61);
+    color: black;
     font-size: 2em;
 }
 
 p{
-    font-family: caviarDreams;
-    font-size: 1.3em;
+    font-family: montserrat;
+    font-size: 1em;
 }
