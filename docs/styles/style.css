@@ -29,6 +29,7 @@
 /* STYLING */
 /***********/
 
+/* BASIC */
 body{
     background-color:var(--achtergrond);
     margin-left: 3em;
@@ -47,36 +48,129 @@ p{
     font-size: 1em;
 }
 
-.wieBenIk{
-    position: relative;
-    width: 8em;
-    border-radius: 50%;
-}
-
-section img{
-    width: 9em;
-}
-
 h3{
     font-family: montserrat;
     font-size: 1.5em;
 }
 
-ul{
+
+/* WIE BEN IK */
+.wieBenIk{
+    position: relative;
+    width: 7em;
+    border-radius: 50%;
+    z-index: 5;
+    top: 1em;
+}
+
+.patroon1{
+    position: absolute;
+    width: 7em;
+    left: 0em;
+    z-index: 1;
+}
+
+
+/* SLIDER */
+section img{
+    width: 9em;
+}
+
+section ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    width: 100%;
+    column-gap: 1em;
+    z-index: 6;
+}
+
+.slider{
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+}
+
+.slider h3{
+    font-size: 1em;
 }
 
 li {
     display: flex;
     align-items: center;
+    flex-direction: column;
     background-color: #f0f0f0; /* Achtergrondkleur lijstitems */
     margin-bottom: .8em; /* marge tussen de lijstitems */
+    min-width: 8em;
+    border-radius: 10%;
 }
 
 li img {
-    margin-right: 10px;
-    max-width: 100%; /* Zorgt ervoor dat de afbeelding niet groter is dan het lijstitem */
+    max-width: 100%;
     height: auto;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.inspiratie img{
+    width: 100%;
+    margin-top: 5em;
+}
+
+
+/* galerij */
+.galerij{
+    flex: wrap;
+    margin-top: 1.5em;
+}
+
+.galerij section img {
+    width: 9em;
+    flex: 1;
+    min-width: 33%;
+}
+
+.galerij img{
+    border-radius: 10%;
+}
+
+@media (min-width: 1080px){
+    main {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10em;
+    }
+
+    .desktop{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .inspiratie img {
+        width: 45%;
+    }
+
+    body{
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+
+    .wieBenIk{
+        margin-top: 4em;
+    }
+
+    .patroon1{
+        left: 7em;
+        top: 4em;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+
+    .slider h3{
+        font-size: 1.2em;
+    }
 }
